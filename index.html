@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Roboto+Serif:wght@100&family=Syne+Tactile&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin:0px;
+            padding: 0px;
+            background: url('img/parwez.jpg');
+            font-family: 'Roboto Serif', sans-serif;
+        }
+        .left{
+         /*    border:2px solid green;*/
+            color: rgb(240, 247, 247);
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 34px;
+
+            padding: 10px;
+        }
+        .mid{
+          /*  border:2px solid green;*/
+            color: rgb(214, 224, 224);
+            width: 45%;
+            margin: 20px auto;
+            display:block;
+        }
+        .right{
+          /*   border:2px solid rgb(16, 221, 16);*/
+            color: rgb(211, 208, 240);
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right: 34px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            color:whitesmoke;
+            text-decoration: none;
+            padding: 34px 13px;
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font: 500;
+        }
+      .navbar li a:hover,  .navbar li a.active{
+
+            text-decoration: underline;
+            color: rgb(56, 201, 133);
+        }
+        .left img{
+            width: 30px;
+           
+        }
+        .btn{
+            padding: 12px 12px;
+            color: rgb(224, 233, 230);
+            background-color: black;
+          /*  border: 2px solid grey;*/
+             border-radius: 12px;
+            cursor:pointer ;
+        }
+       .btn:hover{
+           background-color: rgb(214, 27, 167);
+       }
+       .left div{
+           font-size:x-small ;
+           color: azure;
+           font: weight 1px;;
+       }
+      .container{
+          margin: 50px 50px ;
+          border: 0px solid green;
+          padding: 75px;
+          width: auto;
+         color: rgb(243, 242, 240);
+         border-radius: 12px;
+      }
+      .formgroup input{
+          text-align: center;
+          display: block;
+          border:2px solid green;
+          padding: 75ppx;
+          margin:23px auto;
+          font-size: 23px;
+          border-radius: 10px;
+          
+
+      }
+      .formgroup input:hover{
+          background-color: aquamarine;
+          cursor: text;
+      }
+      h3{
+          text-align: center;
+      }
+      .container button{
+          display: block;
+          margin: auto;
+          width: 93%;
+      }
+      .class{
+          border:0px solid pink ;
+          position: absolute;
+          top:800px;
+          padding:111px 60px;
+          
+          
+    
+      }
+      .class h3{
+          color:aqua;
+      }
+      .class p{
+          color:rgb(20, 161, 107);
+      }
+      .jamal{
+          border:2px solid green;
+          
+          color:blue;
+    
+          height: 200px;
+          width:500px;
+      }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+<img src="img/pk.jpg" alt="">
+<div>
+    Parwez <br>Fitness
+</div>
+        </div>
+    
+        <div class="mid">
+        <ul class="navbar">
+            <li><a href="home"class="active">HOME</a></li>
+            <li><a href="home"class="active">ABOUT US</a></li>
+            <li><a href="home"class="active">FITNESS</a></li>
+            <li><a href="home"class="active">CONTACT US</a></li>
+        </ul>
+        </div>
+        <div class="right">
+<button class="btn">CALL US</button>
+<button class="btn">CONTACT US</button>
+        </div>
+    </header>
+    <div class="container">
+     <h3>Join the best gym of indore</h3>
+     <form action="noaction.php">
+         <div class="formgroup">
+             <input type="text" name=""placeholder="enter your name" >
+         </div>
+
+         <div class="formgroup">
+            <input type="text" name=""placeholder="enter your age" >
+        </div>
+
+        <div class="formgroup">
+            <input type="text" name=""placeholder="enter your gender" >
+        </div>
+
+        <div class="formgroup">
+            <input type="text" name=""placeholder="enter your email" >
+        </div>
+
+<div class="formgroup">
+            <input type="text" name=""placeholder="enter your address" >
+</div>
+
+        </form>
+        <button class="btn">SUBMIT</button>
+      
+  
+    
+    </div>
+   
+</body>
+</html>
