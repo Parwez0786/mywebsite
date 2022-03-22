@@ -1,0 +1,273 @@
+/* css reset */
+  body{
+      background-color: black;
+      height: 100%;
+  }
+    *{
+        margin:0px;
+        padding:0px;
+    }
+
+    /* css variables */
+    :root{
+
+    }
+    /* navigation bar */
+#navbar{
+    display: flex;
+
+    position: absolute;
+    align-items:center;
+    
+    height: 60px;
+    top: 0px;
+    
+}
+
+/*  navigation :logo and image */
+
+#logo{
+    margin :34px , 45px;
+    padding:30px 4px
+}
+#logo img{
+    border: 0px solid green;
+    height: 70px;
+}
+
+
+
+/* navigation : list  styling */
+#navbar ul{
+    display: flex;
+    
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    
+
+}
+#navbar ul li{
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+  
+  font-size:1.3rem;
+    
+}
+#navbar ul li a{
+    color: rgb(23, 235, 76);
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar ul li a:hover{
+    color: rgb(221, 32, 32);
+    background-color: rgb(232, 241, 243);
+    border-radius: 20px;
+   
+}
+/* home css */
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 59px 129px;
+ 
+
+    justify-content: center;
+    align-items: center;
+    height: 703px;
+
+
+}
+.home::before{
+    content: "";
+    height: 140%;
+    width: 100%;
+    position: absolute;
+    background: url('/image/bg3.png.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+}
+/* utility class */
+.h-primary{
+    
+    font-size: 3.3rem;
+    padding:12px;
+}
+.home h1{
+    color:rgb(10, 134, 243);
+    text-align: center;
+}
+.home p{
+    color:aliceblue;
+    text-align: center;
+}
+/* utility classes */
+.h-primary {
+   
+font-size: 3.8rem;
+padding:12px;
+}
+.h-secondary{
+  
+font-size: 2.8rem;
+padding:12px;
+}
+
+#services{
+    margin:30px;
+    display:flex;
+    height: 500px;
+    background-color: deeppink;
+    
+    color: aquamarine;
+    
+    
+}
+.services-container h1{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+color: azure;
+}
+#services .box{
+    border:2px solid green;
+    margin:30px;
+    padding: 24px;
+    border-radius: 23px;
+    background-color: rgb(226, 238, 237);
+    
+}
+#services .box:hover{
+    background-color: rgb(231, 219, 229);
+    color:rgb(231, 79, 8)
+}
+#services .box img{
+    height:200px;
+    width:50px;
+    display: block;
+    margin: auto;
+    width: 200px;
+
+
+display: block;
+margin: auto;
+}
+#services p{
+    font-family: monospace;
+}
+
+/* client section */
+#client-section{
+    position: relative;
+}
+#client-section h1{
+    color: blue;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('/image/teemu-paananen-OOE4xAnBhKo-unsplash.jpg');
+    width: 100%;
+   height: 100%;
+   z-index: -1;
+   opacity: 1.0;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#clients img{
+    height: 124px;
+}
+.client-items{
+padding: 43px;
+}
+
+
+.btn{
+    
+    padding: 6px 20px;
+    color: aqua;
+    background-color: chocolate;
+    font-size: 1.5rem;
+
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: blue;
+    background-color: cyan;
+    
+}
+.center{
+   text-align: center;
+   
+}
+
+
+/* contact section */
+#contact{
+
+color: cyan;
+
+
+}
+#contact::before{
+    content:"";
+    position: absolute;
+    width:100%;
+    height:130%;
+    z-index: -1;
+    opacity: 1.7;
+    background: url('/image/chad-montano-eeqbbemH9-c-unsplash.jpg')no-repeat center center/cover;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+.contact-box input, .contact-box textarea{
+    width:100%;
+    padding:0.5rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    border: 1px solid pink;
+    background-color: rgb(233, 227, 222);
+    
+}
+
+ 
+.contact-box form{
+    width:40%;
+}
+.contact-box label{
+    font-size: 1.3rem;
+    font-family: cursive;
+    color: rgb(218, 84, 32);
+    
+}
+
+
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    color: fuchsia;
+    padding: 10px 10px;
+}
