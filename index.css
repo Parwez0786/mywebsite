@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(14, 139, 202);
+}
+
+#container{
+  text-align: center;
+  margin-top: 166px;
+
+  
+}
+
+#container input {
+  background-color:palegreen;
+width: 300px;
+  padding: 20px;
+margin-bottom: 50px;
+
+  border-radius: 10px;
+  border: 1px solid pink;
+}
+#container input:hover {
+  background-color:rgb(152, 233, 251);
+
+ 
+}
+#table{
+
+ 
+  margin: auto;
+}
+
+#container #table tr td{
+  padding:10px;
+  
+}
+
+#container #table tr td button{
+  padding:10px;
+  border-radius: 10px;
+  background-color: rgb(211, 16, 137);
+
+
+
+
+  
+}
+ #container #table tr td button:hover{
+ 
+  background-color: rgb(255, 0, 208);
+
+  
+  
+}
+
+
+#parwez1{
+  padding:20px;
+  background-color: rgb(219, 196, 255);
+
+  border-radius: 20px;
+
+  margin-left:400px;
+}
+ #parwez1:hover{
+
+  background-color: rgb(196, 255, 205);
+
+  
+}
+ #parwez2{
+  padding:20px;
+  background-color: rgb(219, 196, 255);
+
+  border-radius: 20px;
+
+  margin-left:400px;
+}
+ #parwez2:hover{
+
+  background-color: rgb(196, 255, 205);
+
+  
+}
+
+
+#parwez3{
+  padding:20px;
+  background-color: rgb(219, 196, 255);
+
+  border-radius: 20px;
+
+  margin-left:400px;
+}
+ #parwez3:hover{
+
+  background-color: rgb(196, 255, 205);
+
+  
+}
+ 
+
+
+#parwez4{
+  padding:20px;
+  background-color: rgb(219, 196, 255);
+
+  border-radius: 20px;
+
+  margin-left:400px;
+}
+ #parwez4:hover{
+
+  background-color: rgb(196, 255, 205);
+
+  
+}
+ 
+
+ 
